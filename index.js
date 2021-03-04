@@ -1,5 +1,7 @@
 exports.consent = (callback) => {
-  document.addEventListener('consentchange', () => {
-    callback();
-  });
+  if (typeof document !== 'undefined') {
+    document.addEventListener('consentchange', () => {
+      callback();
+    });
+  }
 };
