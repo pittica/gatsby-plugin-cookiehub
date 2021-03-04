@@ -4,7 +4,6 @@
 ![Version](https://img.shields.io/github/package-json/v/pittica/gatsby-plugin-cookiehub)
 ![Release](https://img.shields.io/github/v/release/pittica/gatsby-plugin-cookiehub)
 ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/pittica/gatsby-plugin-cookiehub/dev/gatsby)
-![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/pittica/gatsby-plugin-cookiehub/dev/react)
 [![npm](https://img.shields.io/npm/v/@pittica/gatsby-plugin-cookiehub)](https://www.npmjs.com/package/@pittica/gatsby-plugin-cookiehub)
 
 ## Description
