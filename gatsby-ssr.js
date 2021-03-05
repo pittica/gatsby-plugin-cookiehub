@@ -5,7 +5,7 @@ export const onRenderBody = ({ setHeadComponents }, { cookie, code, debug }) => 
       dangerouslySetInnerHTML={{
         __html: `
         function allowCookie(category,value){
-          document.cookie="${cookie}-"+category+"="+(value?"true":"false")+"; path=/";
+          document.cookie="${cookie}-"+category+"="+(value?"true":"false")+"; path=/; SameSite=Strict";
           document.dispatchEvent(new CustomEvent('consentchange',{detail:{category:category,allowed:value}}));
         }
         var cpm={onAllow:function(category){allowCookie(category,true);},onDeny:function(category){allowCookie(category,false);}};
