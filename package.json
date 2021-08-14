@@ -31,5 +31,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pittica/gatsby-plugin-cookiehub.git"
+  },
+  "config": {
+    "access": "public"
   }
 }
