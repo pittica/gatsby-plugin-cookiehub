@@ -1,8 +1,7 @@
-export const onRenderBody = (
-  { setHeadComponents },
-  { cookie, code, debug }
-) => {
-  return setHeadComponents([
+import React from "react";
+
+export const onRenderBody = ({ setHeadComponents }, { cookie, code, debug }) =>
+  setHeadComponents([
     <script
       key="pittica-cookiehub"
       dangerouslySetInnerHTML={{
@@ -24,4 +23,3 @@ export const onRenderBody = (
       }}
     />,
   ]);
-};

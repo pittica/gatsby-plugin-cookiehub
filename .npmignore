@@ -10,3 +10,4 @@ decls
 examples
 .gitattributes
 *.code-workspace
+src
