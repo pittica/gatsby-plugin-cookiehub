@@ -2,7 +2,7 @@
   "name": "@pittica/gatsby-plugin-cookiehub",
   "private": false,
   "description": "CookieHub plugin for GatsbyJS.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": {
     "name": "Lucio Benini",
     "email": "info@pittica.com",
@@ -13,9 +13,18 @@
   },
   "deprecated": false,
   "homepage": "https://github.com/pittica/gatsby-plugin-cookiehub",
-  "keywords": [ "gatsby", "gatsby-plugin", "gdpr", "cookiehub" ],
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gdpr",
+    "cookiehub"
+  ],
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
   "devDependencies": {
-    "gatsby": "^2.32.3"
+    "gatsby": "^3.11.0"
   },
   "license": "MIT",
   "main": "index.js",

@@ -1,4 +1,7 @@
-export const onRenderBody = ({ setHeadComponents }, { cookie, code, debug }) => {
+export const onRenderBody = (
+  { setHeadComponents },
+  { cookie, code, debug }
+) => {
   return setHeadComponents([
     <script
       key="pittica-cookiehub"
@@ -11,12 +14,14 @@ export const onRenderBody = ({ setHeadComponents }, { cookie, code, debug }) => 
         var cpm={onAllow:function(category){allowCookie(category,true);},onDeny:function(category){allowCookie(category,false);}};
         (function(h,u,b){
         var d=h.getElementsByTagName("script")[0],e=h.createElement("script");
-        e.async=true;e.src='https://cookiehub.net/${debug ? 'dev/' : ''}c2/${code}.js';
+        e.async=true;e.src='https://cookiehub.net/${
+          debug ? "dev/" : ""
+        }c2/${code}.js';
         e.onload=function(){u.cookiehub.load(b);}
         d.parentNode.insertBefore(e,d);
         })(document,window,cpm);
-      `
+      `,
       }}
-    />
+    />,
   ]);
 };
