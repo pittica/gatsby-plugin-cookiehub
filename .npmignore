@@ -11,3 +11,4 @@ examples
 .gitattributes
 *.code-workspace
 src
+.github
