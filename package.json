@@ -29,12 +29,14 @@
     "cpx": "^1.5.0",
     "react-scripts": "^4.0.3"
   },
+  "peerDependencies": {
+    "gatsby": "^3.0.0 || ^4.0.0"
+  },
   "scripts": {
     "test": "react-scripts test",
     "build": "rimraf ./dist && mkdirp ./dist && babel src --out-dir dist --copy-files && cpx package.json ./dist"
   },
   "license": "MIT",
-  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pittica/gatsby-plugin-cookiehub.git"
