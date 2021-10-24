@@ -13,6 +13,7 @@
 ## Install
 
 [![npm](https://img.shields.io/npm/v/@pittica/gatsby-plugin-cookiehub)](https://www.npmjs.com/package/@pittica/gatsby-plugin-cookiehub)
+[![npm](https://img.shields.io/npm/dm/@pittica/gatsby-plugin-cookiehub)](https://www.npmjs.com/package/@pittica/gatsby-plugin-cookiehub)
 
 ```shell
 npm install @pittica/gatsby-plugin-cookiehub
