@@ -20,13 +20,13 @@
     "cookiehub"
   ],
   "dependencies": {
-    "cpx": "^1.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.15.7",
     "babel-preset-gatsby-package": "^2.0.0",
+    "cpx": "^1.5.0",
     "react-scripts": "^4.0.3"
   },
   "scripts": {
