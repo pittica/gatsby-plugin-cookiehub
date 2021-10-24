@@ -2,7 +2,7 @@
   "name": "@pittica/gatsby-plugin-cookiehub",
   "private": false,
   "description": "CookieHub plugin for GatsbyJS.",
-  "version": "1.0.6",
+  "version": "2.0.0",
   "author": {
     "name": "Lucio Benini",
     "email": "info@pittica.com",
@@ -20,17 +20,18 @@
     "cookiehub"
   ],
   "dependencies": {
+    "cpx": "^1.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@babel/cli": "^7.14.8",
-    "babel-preset-gatsby-package": "^1.12.0",
+    "@babel/cli": "^7.15.7",
+    "babel-preset-gatsby-package": "^2.0.0",
     "react-scripts": "^4.0.3"
   },
   "scripts": {
     "test": "react-scripts test",
-    "prepare": "rimraf ./dist && mkdirp ./dist && babel src --out-dir dist --copy-files"
+    "build": "rimraf ./dist && mkdirp ./dist && babel src --out-dir dist --copy-files && cpx package.json ./dist"
   },
   "license": "MIT",
   "main": "dist/index.js",
