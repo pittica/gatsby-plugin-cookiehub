@@ -1,7 +1,4 @@
-exports.consent = (callback) => {
-  if (typeof document !== "undefined") {
-    document.addEventListener("consentchange", () => {
-      callback();
-    });
-  }
-};
+import CookiesSettings from "./components/cookies-settings."
+import consent from "./utils/consent"
+
+export { consent, CookiesSettings }
