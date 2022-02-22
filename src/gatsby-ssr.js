@@ -1,6 +1,6 @@
-import React from "react";
+import React from "react"
 
-export const onRenderBody = ({ setHeadComponents }, { cookie, code, debug }) =>
+export function onRenderBody({ setHeadComponents }, { cookie, code, debug }) {
   setHeadComponents([
     <script
       key="pittica-cookiehub"
@@ -22,4 +22,5 @@ export const onRenderBody = ({ setHeadComponents }, { cookie, code, debug }) =>
       `,
       }}
     />,
-  ]);
+  ])
+}
