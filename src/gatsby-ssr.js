@@ -1,5 +1,7 @@
 import React from "react"
 
+export { wrapPageElement } from "./gatsby-browser"
+
 export function onRenderBody({ setHeadComponents }, { cookie, code, debug }) {
   setHeadComponents([
     <script
